@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+          integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>messenger</title>
+      </head>
+</head>
+<body>
+  <div class="container">
+    <header class="header row" id="header">
+      <button class="fas fa-sync-alt col-1 reload rotate" id="reload"></button>
+      <p class="header-info col-2" >Всего - <span id="allMessageCount"></span></p>
+      <p class="header-info unread-message-counter" >Непрочитанных - <span id="unreadMessageCount"></span></p>
+      <form class="search-form row" role="search" id="search-form">
+        <div class="search-input col-9">
+          <input type="search" class="form-control" placeholder="Найти" name="searchInput" id="search-input" />
+        </div>
+        <button type="submit" class="btn btn-primary search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </header>
+    <div class="row" id="messageField">
+      <!-- <div class="message">
+        <div class="message-sender col-3">
+          <img src="img/1.jpg" alt="1">
+          <div class="message-sender-contact">
+            <p>Александр Александров</p>
+            <p>+38 099 539 60 55</p>
+          </div>
+        </div>
+        <div class="message-text col-6">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Harum officia repudiandae voluptates, dolores temporibus
+          ex iusto, incidunt recusandae aliquid totam veritatis
+        </div>
+        <div class="timeDate col-3 row">
+          <p>11:50</p>
+          <p>12.2.2020</p>
+        </div>
+      </div>  -->
+    </div>
+  </div>
+  <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
